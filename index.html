@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #8B4513; /* Color café */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+ nav {
+            background-color: #ffd700; /* Color amarillo */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: black; /* Texto negro */
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        nav a:hover {
+            color: #8B4513; /* Texto café al pasar el mouse */
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box {
+            background-color: #ffd700; /* Color amarillo */
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #8B4513; /* Color café */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logoong.jpg">
+        <h1>Organización de Apoyo para Personas con Discapacidades</h1>
+    </header>
+<nav>
+        <a href="#inicio">Inicio</a>
+        <a href="sobrenosotros.html">Sobre Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="programas.html">Programas</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="box" onclick="window.location.href='https://www.ejemplo1.com';">
+           
+            <h2>Misión y Visión</h2>
+            <p>Nuestra misión es mejorar la calidad de vida de las personas con discapacidades, promoviendo su inclusión y el respeto a sus derechos.</p>
+            <p>Nuestra visión es construir una sociedad inclusiva y accesible, donde todas las personas puedan desarrollarse plenamente sin importar sus diferencias.</p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.ejemplo2.com';">
+            
+            <h2>Tipos de Discapacidades</h2>
+            <p>Existen diversos tipos de discapacidades, entre las más comunes se encuentran:</p>
+            <ul>
+                <li>Discapacidad física</li>
+                <li>Discapacidad intelectual</li>
+                <li>Discapacidad sensorial (visual y auditiva)</li>
+                <li>Discapacidad psicosocial</li>
+                <li>Discapacidad múltiple</li>
+            </ul>
+            <p>Cada tipo de discapacidad presenta desafíos únicos, y nuestro trabajo está enfocado en brindar apoyo y recursos para cada una de ellas.</p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.ejemplo3.com';">
+            
+            <h2>Nuestra Labor</h2>
+            <p>La Oficina del Alto Comisionado es la principal entidad de las Naciones Unidas en el ámbito de los derechos humanos y dispone de un mandato excepcional para promover y proteger todos los derechos humanos de todas las personas.</p>
+           
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Organización de Apoyo para Personas con Discapacidades | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
